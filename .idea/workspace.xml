@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95cbe3be-2dd5-481a-9ed3-0fe7f56436fa" name="Default" comment="" />
+    <list default="true" id="95cbe3be-2dd5-481a-9ed3-0fe7f56436fa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/refactoring_practice.iml" afterPath="$PROJECT_DIR$/refactoring_practice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/PersonTest.java" afterPath="$PROJECT_DIR$/test/PersonTest.java" />
+    </list>
     <ignored path="refactoring_practice.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,13 +63,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PersonTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="60" selection-start="417" selection-end="417" vertical-scroll-proportion="0.6487252">
+            <state line="13" column="1" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TelephoneNumberTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/TelephoneNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0878187">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,8 +108,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Person/Person.java" />
-        <option value="$PROJECT_DIR$/test/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/Person.java" />
+        <option value="$PROJECT_DIR$/test/TelephoneNumberTest.java" />
+        <option value="$PROJECT_DIR$/test/PersonTest.java" />
       </list>
     </option>
   </component>
@@ -204,7 +219,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.should_return_028_123456_for_telephone_number">
+  <component name="RunManager" selected="TestNG.TelephoneNumberTest.should_return_110_654321_for_telephone_number">
     <configuration default="false" name="PersonTest.should_return_dummy_name_for_the_name" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="refactoring_practice" />
@@ -293,6 +308,36 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TelephoneNumberTest.should_return_110_654321_for_telephone_number" type="TestNG" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="refactoring_practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelephoneNumberTest" />
+      <option name="METHOD_NAME" value="should_return_110_654321_for_telephone_number" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -425,11 +470,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PersonTest.should_return_dummy_name_for_the_name" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PersonTest.should_return_028_123456_for_telephone_number" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.PersonTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.PersonTest.should_return_abc_for_the_name" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TelephoneNumberTest.should_return_110_654321_for_telephone_number" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -483,7 +529,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712329" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -556,10 +602,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="417" selection-end="417" vertical-scroll-proportion="0.6487252">
+        <state line="13" column="1" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TelephoneNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0878187">
+          <folding />
         </state>
       </provider>
     </entry>
