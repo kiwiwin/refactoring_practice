@@ -1,12 +1,10 @@
 public class Person {
     private String name;
-    private String areaCode;
-    private String officeNumber;
+    private TelephoneNumber telephoneNumber;
 
     public Person(String name, String areaCode, String officeNumber) {
         this.name = name;
-        this.areaCode = areaCode;
-        this.officeNumber = officeNumber;
+        this.telephoneNumber = new TelephoneNumber(areaCode, officeNumber);
     }
 
     public String getName() {
@@ -14,6 +12,32 @@ public class Person {
     }
 
     public String getTelephoneNumber() {
-        return areaCode + "_" + officeNumber;
+        return getAreaCode() + "_" + getOfficeNumber();
+    }
+
+    public String getAreaCode() {
+        return telephoneNumber.getAreaCode();
+    }
+
+    public String getOfficeNumber() {
+        return telephoneNumber.getOfficeNumber();
+    }
+}
+
+class TelephoneNumber {
+    private String areaCode;
+    private String officeNumber;
+
+    public TelephoneNumber(String areaCode, String officeNumber) {
+        this.areaCode = areaCode;
+        this.officeNumber = officeNumber;
+    }
+
+    public String getAreaCode() {
+        return areaCode;
+    }
+
+    public String getOfficeNumber() {
+        return officeNumber;
     }
 }

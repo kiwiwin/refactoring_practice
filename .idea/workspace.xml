@@ -58,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PersonTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="173" selection-end="173" vertical-scroll-proportion="0.6147309">
+            <state line="7" column="19" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Person.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+            <state line="42" column="1" selection-start="996" selection-end="996" vertical-scroll-proportion="0.8306011">
               <folding />
             </state>
           </provider>
@@ -95,6 +95,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Person/Person.java" />
         <option value="$PROJECT_DIR$/test/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/Person.java" />
       </list>
     </option>
   </component>
@@ -203,7 +204,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest">
+  <component name="RunManager" selected="JUnit.PersonTest.should_return_abc_for_the_name">
     <configuration default="false" name="PersonTest.should_return_dummy_name_for_the_name" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="refactoring_practice" />
@@ -259,6 +260,29 @@
       <option name="MAIN_CLASS_NAME" value="PersonTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PersonTest.should_return_abc_for_the_name" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="refactoring_practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="should_return_abc_for_the_name" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -401,10 +425,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PersonTest.should_return_dummy_name_for_the_name" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PersonTest.should_return_028_123456_for_telephone_number" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.PersonTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PersonTest.should_return_abc_for_the_name" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -522,19 +547,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="173" selection-end="173" vertical-scroll-proportion="0.6147309">
+        <state line="7" column="19" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="1" selection-start="996" selection-end="996" vertical-scroll-proportion="0.8306011">
+          <folding />
         </state>
       </provider>
     </entry>
