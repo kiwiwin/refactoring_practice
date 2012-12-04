@@ -1,10 +1,10 @@
 public class Person {
     private String name;
     private TelephoneNumber telephoneNumber;
-    
-    public Person(String name, String areaCode, String officeNumber, TelephoneNumber telephoneNumber) {
+
+    public Person(String name, TelephoneNumber telephoneNumber) {
         this.name = name;
-        this.telephoneNumber = new TelephoneNumber(areaCode, officeNumber);
+        this.telephoneNumber = telephoneNumber;
     }
 
     public String getName() {
