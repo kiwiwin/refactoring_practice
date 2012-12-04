@@ -12,15 +12,7 @@ public class Person {
     }
 
     public String getTelephoneNumber() {
-        return getAreaCode() + "_" + getOfficeNumber();
-    }
-
-    public String getAreaCode() {
-        return telephoneNumber.getAreaCode();
-    }
-
-    public String getOfficeNumber() {
-        return telephoneNumber.getOfficeNumber();
+        return telephoneNumber.getTelephoneNumber();
     }
 }
 
@@ -39,5 +31,9 @@ class TelephoneNumber {
 
     public String getOfficeNumber() {
         return officeNumber;
+    }
+
+    public String getTelephoneNumber() {
+        return getAreaCode() + "_" + getOfficeNumber();
     }
 }
